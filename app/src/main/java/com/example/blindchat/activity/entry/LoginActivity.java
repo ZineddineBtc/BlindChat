@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import com.example.blindchat.R;
 import com.example.blindchat.StaticClass;
-import com.example.blindchat.User;
+import com.example.blindchat.model.User;
 import com.example.blindchat.activity.TermsActivity;
 import com.example.blindchat.activity.core.CoreActivity;
 import com.google.android.gms.tasks.OnCompleteListener;

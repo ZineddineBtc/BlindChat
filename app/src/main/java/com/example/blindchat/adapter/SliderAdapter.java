@@ -1,4 +1,4 @@
-package com.example.blindchat;
+package com.example.blindchat.adapter;
 
 import android.content.Context;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
+
+import com.example.blindchat.R;
 
 public class SliderAdapter extends PagerAdapter {
 

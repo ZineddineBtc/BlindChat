@@ -1,4 +1,4 @@
-package com.example.blindchat;
+package com.example.blindchat.model;
 
 import android.graphics.Bitmap;
 
@@ -11,6 +11,11 @@ public class User {
 
     public User(){}
 
+    public User(String id, String username, String name) {
+        this.id = id;
+        this.username = username;
+        this.name = name;
+    }
     public User(String id, String username, String name, String bio) {
         this.id = id;
         this.username = username;

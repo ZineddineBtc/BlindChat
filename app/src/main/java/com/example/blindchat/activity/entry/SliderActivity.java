@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.example.blindchat.R;
-import com.example.blindchat.SliderAdapter;
+import com.example.blindchat.adapter.SliderAdapter;
 import com.example.blindchat.activity.TermsActivity;
 
 import java.util.Objects;
