@@ -1,14 +1,16 @@
-package com.example.blindchat;
+package com.example.blindchat.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SetProfileActivity extends AppCompatActivity {
+import com.example.blindchat.R;
+
+public class CoreActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_set_profile);
+        setContentView(R.layout.activity_core);
     }
 }

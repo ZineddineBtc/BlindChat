@@ -1,8 +1,10 @@
-package com.example.blindchat;
+package com.example.blindchat.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.blindchat.R;
 
 public class TermsActivity extends AppCompatActivity {
 
