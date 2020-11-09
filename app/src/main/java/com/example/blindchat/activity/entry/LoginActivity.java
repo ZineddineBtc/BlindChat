@@ -1,4 +1,4 @@
-package com.example.blindchat.activity;
+package com.example.blindchat.activity.entry;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +16,8 @@ import android.widget.Toast;
 import com.example.blindchat.R;
 import com.example.blindchat.StaticClass;
 import com.example.blindchat.User;
+import com.example.blindchat.activity.TermsActivity;
+import com.example.blindchat.activity.core.CoreActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

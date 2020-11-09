@@ -1,4 +1,4 @@
-package com.example.blindchat.activity;
+package com.example.blindchat.activity.entry;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 
 import com.example.blindchat.R;
 import com.example.blindchat.SliderAdapter;
+import com.example.blindchat.activity.TermsActivity;
 
 import java.util.Objects;
 

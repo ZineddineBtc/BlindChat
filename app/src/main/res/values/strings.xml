@@ -52,5 +52,9 @@
     <string name="general_time">99:99 MM</string>
     <string name="invalid_city">Invalid country</string>
     <string name="random_city">Frankfurt</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
 
 </resources>
