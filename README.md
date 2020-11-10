@@ -1,5 +1,5 @@
 # BlindChat
-An messaging app to openly talk to anyone while the one sliding first into the messages remains private.
+A messaging app to openly talk to anyone while the one sliding first into the messages remains private.
 
 ## Features
 Users can create accounts for themselves, so they can DM any user without showing their identity, and vice versa.
