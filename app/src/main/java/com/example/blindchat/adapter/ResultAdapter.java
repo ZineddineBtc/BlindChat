@@ -28,6 +28,8 @@ import com.google.firebase.storage.FirebaseStorage;
 
 import java.util.List;
 
+import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
+
 public class ResultAdapter extends RecyclerView.Adapter<ResultAdapter.ViewHolder> {
 
     private List<User> usersList;
@@ -56,7 +58,8 @@ public class ResultAdapter extends RecyclerView.Adapter<ResultAdapter.ViewHolder
             @Override
             public void onClick(View v) {
                 context.getApplicationContext().startActivity(new Intent(context, ProfileActivity.class)
-                        .putExtra(StaticClass.PROFILE_ID, user.getId()));
+                        .putExtra(StaticClass.PROFILE_ID, user.getId())
+                        .setFlags(FLAG_ACTIVITY_NEW_TASK));
             }
         });
     }
