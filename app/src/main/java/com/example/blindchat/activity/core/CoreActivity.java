@@ -3,6 +3,7 @@ package com.example.blindchat.activity.core;
 import android.os.Bundle;
 
 import com.example.blindchat.R;
+import com.example.blindchat.StaticClass;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,6 +27,13 @@ public class CoreActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+        String to = getIntent().getStringExtra(StaticClass.TO);
+        if(to!=null) {
+            if (to.equals(StaticClass.CHATS_FRAGMENT)){
+                navView.setSelectedItemId(R.id.navigation_chats);
+            }
+        }
+
     }
 
 }
