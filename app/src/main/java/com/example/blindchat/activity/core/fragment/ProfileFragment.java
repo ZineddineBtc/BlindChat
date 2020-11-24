@@ -274,7 +274,7 @@ public class ProfileFragment extends Fragment {
         usernameETShown = !usernameETShown;
     }
     private void checkIfUsernameTaken(final String newUsername){
-        database.collection("app-profilePhotoData")
+        database.collection("app-data")
                 .document("usernames").get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
