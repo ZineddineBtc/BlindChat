@@ -298,7 +298,7 @@ public class ProfileFragment extends Fragment {
         });
     }
     private void adjustUsernameList(String oldUsername, String newUsername){
-        database.collection("app-profilePhotoData")
+        database.collection("app-data")
                 .document("usernames")
                 .update("usernames", FieldValue.arrayRemove(oldUsername),
                         "usernames", FieldValue.arrayUnion(newUsername));
